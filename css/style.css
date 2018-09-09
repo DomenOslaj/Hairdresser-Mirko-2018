@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.jumbotron {
+  background-image: url("https://image.ibb.co/jcH0AU/jumbo_background.jpg");
+  height: 850px;
+  min-height: 50%;
+}
+
+.container-fluid {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.navbar-nav a {
+  color: white;
+}
