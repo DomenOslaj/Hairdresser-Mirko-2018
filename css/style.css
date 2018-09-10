@@ -15,7 +15,12 @@ header .navbar-brand {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h1, p, a {
+.jumbotron h1 {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.jumbotron p {
   color: white;
   letter-spacing: 1px;
 }
@@ -30,10 +35,14 @@ header .navbar-brand {
 }
 
 .navbar-nav a {
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 13px 0px;
   letter-spacing: 2px;
   font-style: normal;
   font-weight: 500;
+}
+
+.offer {
+  color: black;
 }
