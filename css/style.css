@@ -1,6 +1,5 @@
 body {
-  font-family: sans-serif;
-  font-weight: 300;
+  font-family: 'Libre Franklin', sans-serif;     /* libre franklin font is linked in the homepage.html */
 }
 
 header .navbar-brand {
@@ -13,11 +12,13 @@ header .navbar-brand {
   display: flex;
   background-size: cover;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
   color: white;
   letter-spacing: 1px;
+  font-weight: 800;
 }
 
 .jumbotron p {
@@ -27,6 +28,11 @@ header .navbar-brand {
 
 .jumbotron a {
   margin-top: 30px;
+}
+
+.btn-default {
+  background-color: #2ed3ae;
+  color: black;
 }
 
 .container-fluid {
@@ -43,6 +49,40 @@ header .navbar-brand {
   font-weight: 500;
 }
 
-.offer {
-  color: black;
+.offer-box {
+  border: 1px solid black;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+
+#offer-list-title {
+  font-size: 32px;
+  line-height: 1.35;
+  font-weight: 200;
+  font-family: inherit;
+  color: #151515;
+  text-align: center;
+}
+
+.container-wide {
+  background-color: #2ed3ae;
+  padding: 50px 0;
+  font-size: 28px;
+  color: white;
+  width: 100%;
+}
+
+.green-box {
+  background-color: #2ed3ae;
+}
+
+.green-box p {
+  font-size: 20px;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #2ed3ae;
+  font-size: 12px;
+  font-weight: 600;
 }
