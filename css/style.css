@@ -35,7 +35,7 @@ header .navbar-brand {
   color: black;
 }
 
-.container-fluid {
+.padd-fluid {
   padding-left: 100px;
   padding-top: 50px;
 }
@@ -49,40 +49,26 @@ header .navbar-brand {
   font-weight: 500;
 }
 
-.offer-box {
-  border: 1px solid black;
-  margin-bottom: 200px;
-  padding-bottom: 100px;
-}
-
-#offer-list-title {
-  font-size: 32px;
-  line-height: 1.35;
-  font-weight: 200;
-  font-family: inherit;
-  color: #151515;
-  text-align: center;
-}
-
-.container-wide {
-  background-color: #2ed3ae;
-  padding: 50px 0;
-  font-size: 28px;
-  color: white;
-  width: 100%;
-}
-
-.green-box {
-  background-color: #2ed3ae;
-}
-
-.green-box p {
-  font-size: 20px;
-}
-
 .btn-secondary {
   background-color: white;
   color: #2ed3ae;
   font-size: 12px;
   font-weight: 600;
+}
+
+.bg-greenbox {
+  background-color: #2ed3ae;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.row h3 {
+  line-height: 1.35;
+}
+
+@media {
+	.container-wide {
+		max-width: 1500px;
+	}
 }
