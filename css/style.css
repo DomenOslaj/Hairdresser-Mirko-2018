@@ -58,17 +58,59 @@ header .navbar-brand {
 
 .bg-greenbox {
   background-color: #2ed3ae;
+  color: white;
+}
+
+.boxes {
   padding-top: 50px;
   padding-bottom: 50px;
-  color: white;
 }
 
 .row h3 {
   line-height: 1.35;
+  text
 }
 
 @media {
 	.container-wide {
 		max-width: 1500px;
 	}
+}
+
+.custom-height {
+  line-height: 1.6;
+}
+
+.offer {
+  background-color: #f8f8f8;
+}
+
+.offer-list img {
+  max-width: 500px;
+  position: relative;
+}
+
+.offer-list img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.text-block {
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 500px;
+}
+
+.footer-copyright {
+  background-color: #20987d;
+  color: #3bfbd0;
+}
+
+.footer-copyright a {
+  color: white;
 }
