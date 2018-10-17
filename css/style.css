@@ -1,5 +1,5 @@
 body {
-  font-family: 'Libre Franklin', sans-serif;     /* libre franklin font is linked in the homepage.html */
+  font-family: 'Libre Franklin', sans-serif; !important     /* libre franklin font is linked in the homepage.html */
 }
 
 header .navbar-brand {
@@ -113,4 +113,8 @@ header .navbar-brand {
 
 .footer-copyright a {
   color: white;
+}
+
+.footer {
+  background-color: #2ed3ae;
 }
