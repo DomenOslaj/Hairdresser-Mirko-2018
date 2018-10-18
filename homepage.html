@@ -11,7 +11,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
     <!--google fonts -->
 
@@ -21,6 +24,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
 
+    <!-- Responsive Gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
 
 
 
@@ -29,8 +35,10 @@
     <header>
       <!--menu button for mobile devices missed!! -->
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+
         <div class="container">
           <a class="navbar-brand col-sm-7" href="#">Hairdresser Mirko</a>
+
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav col-sm-5">
               <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
@@ -40,7 +48,9 @@
               <a class="nav-item nav-link" href="#">CONTACT</a>
             </div>
           </div>
+
         </div>
+
       </nav>
     </header>
 
@@ -121,7 +131,75 @@
     </section>
 
 <!-- Gallery -->
-https://www.youtube.com/watch?v=k-RtYiiB47E
+    <div class="container">
+
+
+
+      <div class="container gallery-container">
+
+      <h1 class="text-center">Bootstrap 3 Gallery</h1>
+
+      <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+
+      <div class="tz-gallery">
+
+          <div class="row mb-3">
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+          </div>
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card">
+                      <a class="lightbox" href="img/gallery.jpg">
+                      <img src="img/gallery.jpg" alt="Park" class="card-img-top">
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+      </div>
+
+    </div>
 
 
 <!-- Footer -->
@@ -150,6 +228,12 @@ https://www.youtube.com/watch?v=k-RtYiiB47E
       </div> <!-- footer close -->
 
 
-  </body>
 
+      <!-- Responsive Gallery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script>
+          baguetteBox.run('.tz-gallery');
+      </script>
+
+  </body>
 </html>
